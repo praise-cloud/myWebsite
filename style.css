@@ -1,7 +1,48 @@
 /* style file */
+@import url(https://db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=Cera+CY+Bold);
 
-section{
-    margin: 30px;
-    font-weight: 600;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(20, 20, 20);
+    /* background-image: radial-gradient( rgba(95, 87, 87, 0.5), rgba(255, 255, 255, 0.5), rgba(176, 166, 166, 0.9)); */
+}
+
+header{
+    margin: 10px;
+    display: flex;
+}
+
+#logo h1{
+    font-size: 20px;
+    width: 45px;
+    word-wrap: break-word;
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: end;
+    line-height: 15px;
+    margin: 10px;
+}
+
+nav{
+    background: none;
+}
+
+ul{
+    display: flex;
+    margin: 10px 10px 10px 912px;}
+
+ul li{
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 12px 30px;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffff;
 }
 
