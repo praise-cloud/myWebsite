@@ -121,17 +121,20 @@ li a{
 
 
 .container{
-    margin: 200px 20px 20px 20px;
-    overflow: hidden;
+    margin: 200px auto 209px;
+    overflow: auto;
     display: flex;
+    justify-content: center; 
+    aspect-ratio: 16 / 9;
+    scroll-snap-type: x mandatory;
     /* margin: 70px auto;
     justify-content: center;
      */
 }
 
 .card1{
-    width: 400px;
-    height: 400px;
+    width: 1000px;
+    height: 500px;
     border-radius: 20px;
     overflow: hidden;
     border: none;
