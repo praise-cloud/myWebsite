@@ -133,6 +133,9 @@ li a{
     position: relative;
 }
 
+#project-section{
+    margin-top :300px;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -238,7 +241,7 @@ li a{
 
 #contactForm-section{
     display: flex;
-    margin: 100px 40px 40px 40px;
+    margin: 300px 40px 40px 40px;
 }
 
 .contact-content{
@@ -321,10 +324,19 @@ li a{
 
 .contact-form .form-input .form-button button{
     padding: 12px 35px;
+    background-color: #181717;
     border-radius: 10px;
+    color: var(--clr-txt);
+    font-weight: 600;
+    border: none;
     transition: box-shadow 0.5s ease-in-out;
 }
 
 .contact-form .form-input .form-button button:hover{
     box-shadow: 5px 5px 10px var(--clr-shadow);
+}
+
+.contact-form .form-input .form-button button:active{
+    box-shadow: 1px 2px 8px 2px var(--clr-shadow);
+    background-color: #232323;
 }
