@@ -52,7 +52,7 @@ li a{
     text-decoration: none;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--clr-txt)f;
+    color: var(--clr-txt);
 }
 
 
@@ -157,7 +157,6 @@ li a{
     object-fit: cover;
     display: block;
     transition: transform 0.5s;
-
 }   
 
 .cardLhover img{
