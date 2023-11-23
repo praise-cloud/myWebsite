@@ -230,7 +230,6 @@ li a{
 .card-button button:active{
     box-shadow: 1px 2px 8px 2px var(--clr-shadow);
     background-color: #232323;
-
 }
 
 .card:hover .card-content{
