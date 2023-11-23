@@ -235,3 +235,45 @@ li a{
 .card:hover .card-content{
     height: 100%;
 }
+
+#contactForm-section{
+    display: flex;
+    margin: 100px 40px 40px 40px;
+}
+
+.contact-content{
+    margin: 20px;
+    color: var(--clr-txt);
+}
+
+.contact-content .contact-header, .contact-paragraph{
+    text-align: center;
+}
+
+.contact-content .contact-header h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.contact-content .contact-paragraph p{
+    font-size: 14px;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 20px;
+    width: 560px;
+}
+
+.contact-content .contact-list{
+    margin: 20px;    
+}
+
+.contact-content .contact-list .contact-list-heads{
+    text-align: center;
+    margin: 10px;
+}
+
+.contact-content .contact-list .contact-list-paragraph{
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    font-weight: 500;
+}
